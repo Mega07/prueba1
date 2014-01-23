@@ -2,10 +2,10 @@
 <widget id="com.example.prueba1" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>prueba1</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+		Ejemplo de Apache Cordova respondiendo cuando el dispositivo esta listo.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="cesar@rider.mx" href="http://rider.mx">
+        RIDER Team
     </author>
     <content src="index.html" />
     <access origin="*" />
