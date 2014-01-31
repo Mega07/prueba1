@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>	<widget xmlns = "http://www.w3.org/ns/widgets"		xmlns:gap = "http://phonegap.com/ns/1.0"		id        = "com.example.prueba1"		versionCode=""		version   = "0.0.1">		<name>prueba1</name>		<description>Ejemplo de Apache Cordova respondiendo cuando el dispositivo esta listo.		</description>		<author href="http://rider.mx" email="cesar@rider.mx">RIDER Team		</author>		<preference name="phonegap-version" value="3.3.0" />		<preference name="fullscreen" value="false" />		<preference name="webviewbounce" value="true" />		<preference name="prerendered-icon" value="false" />		<preference name="stay-in-webview" value="false" />		<preference name="ios-statusbarstyle" value="default" />		<preference name="detect-data-types" value="true" />		<preference name="exit-on-suspend" value="false" />		<preference name="show-splash-screen-spinner" value="true" />		<preference name="auto-hide-splash-screen" value="true" />		<preference name="EnableViewportScale" value="false" />		<preference name="MediaPlaybackRequiresUserAction" value="false" />		<preference name="AllowInlineMediaPlayback" value="false" />		<preference name="BackupWebStorage" value="cloud" />		<preference name="TopActivityIndicator" value="gray" />		<preference name="KeyboardDisplayRequiresUserAction" value="true" />		<preference name="HideKeyboardFormAccessoryBar" value="false" />		<preference name="SuppressesIncrementalRendering" value="false" />		<preference name="android-minSdkVersion" value="7" />		<preference name="android-installLocation" value="internalOnly" />		<preference name="SplashScreenDelay" value="5000" />		<preference name="ErrorUrl" value=""/>		<preference name="BackgroundColor" value=""/>		<preference name="KeepRunning" value="true"/>		<preference name="DisallowOverscroll" value="false"/>		<preference name="LoadingDialog" value=","/> 		<preference name="LoadUrlTimeoutValue" value="20000" />		<preference name="disable-cursor" value="false" />		<gap:platform name="android" />		<gap:splash src="splash.png" />		<access origin="*" />	</widget>
+=======
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.prueba1" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<gap:platform name="android" />
+    <name>prueba1</name>
+    <description>
+		Ejemplo de Apache Cordova respondiendo cuando el dispositivo esta listo.
+    </description>
+    <author email="cesar@rider.mx" href="http://rider.mx">
+        RIDER Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+>>>>>>> 30ea8712c6c56d1c1caa34460fcf3e8fea7227cd
